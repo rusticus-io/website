@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>rusticus.io</title>
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="Webpack basic starter project">
+    <meta name="Description" content="A simple webpack starter project for your basic web development needs."/>
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Webpack basic starter project" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://lifenautjoe.github.io/webpack-starter-basic/" />
+    <meta property="og:image" content="https://i.snag.gy/i3eMBc.jpg" />
+    <meta property="og:description" content="A simple webpack starter project for your basic web development needs." />
+    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#40699e">
+    <!-- Mobile header color Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#40699e">
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-icon-180x180.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="rusticus.io}}">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#fff">
+    <meta name="application-name" content="rusticus.io}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons-c9f7910043b01b416a56712c62ef3154/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons-c9f7910043b01b416a56712c62ef3154/favicon-16x16.png">
+    <link rel="shortcut icon" href="assets/icons-c9f7910043b01b416a56712c62ef3154/favicon.ico">
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-startup-image-320x460.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-startup-image-640x920.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-startup-image-640x1096.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-startup-image-750x1294.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-startup-image-1182x2208.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-startup-image-1242x2148.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-startup-image-748x1024.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-startup-image-768x1004.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-startup-image-1496x2048.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="assets/icons-c9f7910043b01b416a56712c62ef3154/apple-touch-startup-image-1536x2008.png">
+    <link href="assets/css/styles.0ba064c21251357108e6.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">knowledge base</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <main class="">
+            <header class="">
+                <div>
+                    <h1>Rust Community Stuttgart</h1>
+                </div>
+            </header>
+
+            <section class="news">
+                <h1>news</h1>
+                <div class="thumbnail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti veniam possimus nemo repellat, ex neque et nesciunt vero labore id quam quas repellendus odio error reiciendis officiis? Dolore, deserunt temporibus.</div>
+                <div class="thumbnail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum esse aliquam magnam inventore maiores quasi dolore perspiciatis et, laudantium sint labore nostrum quod dolorem blanditiis fugit at amet! Commodi, fuga!</div>
+                <div class="thumbnail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quo explicabo repellendus voluptatibus quidem excepturi odio eum quod ullam atque tenetur velit a cumque in aspernatur corporis, aperiam quibusdam architecto.</div>
+            </section>
+            <section class="blog">
+                <h1>blog</h1>
+                <div class="thumbnail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti veniam possimus nemo repellat, ex neque et nesciunt vero labore id quam quas repellendus odio error reiciendis officiis? Dolore, deserunt temporibus.</div>
+                <div class="thumbnail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum esse aliquam magnam inventore maiores quasi dolore perspiciatis et, laudantium sint labore nostrum quod dolorem blanditiis fugit at amet! Commodi, fuga!</div>
+                <div class="thumbnail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quo explicabo repellendus voluptatibus quidem excepturi odio eum quod ullam atque tenetur velit a cumque in aspernatur corporis, aperiam quibusdam architecto.</div>
+            </section>
+            <section class="knowledge-base">
+                <h1>knowledge base</h1>
+                <div class="thumbnail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti veniam possimus nemo repellat, ex neque et nesciunt vero labore id quam quas repellendus odio error reiciendis officiis? Dolore, deserunt temporibus.</div>
+                <div class="thumbnail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum esse aliquam magnam inventore maiores quasi dolore perspiciatis et, laudantium sint labore nostrum quod dolorem blanditiis fugit at amet! Commodi, fuga!</div>
+                <div class="thumbnail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quo explicabo repellendus voluptatibus quidem excepturi odio eum quod ullam atque tenetur velit a cumque in aspernatur corporis, aperiam quibusdam architecto.</div>
+            </section>
+        </main>
+
+        <aside class="">
+            <div class="about">
+                <h2>about</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat ratione nihil dolore, sed reprehenderit maxime fugit aspernatur officia distinctio esse eum numquam illo nam a provident officiis ipsa soluta.</p>
+            </div>
+
+            <div class="categories">
+                <h2>categories</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem soluta doloribus amet, quibusdam nihil minima id repudiandae, sapiente obcaecati hic rem eius totam facere debitis consequatur harum impedit est distinctio?</p>
+            </div>
+
+            <div class="tags">
+                <h2>tags</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem soluta doloribus amet, quibusdam nihil minima id repudiandae, sapiente obcaecati hic rem eius totam facere debitis consequatur harum impedit est distinctio?</p>
+            </div>
+        </aside>
+
+    </div>
+
+    <div class="container">
+
+        <footer>
+            <section>
+                <ul>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">imprint</a></li>
+                </ul>
+            </section>
+        </footer>
+
+    </div>
+
+<script type="text/javascript" src="main.6af337c9d1e302112a6d.js"></script></body>
+</html>
