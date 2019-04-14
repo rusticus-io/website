@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title | lower }} : {{ .Site.Title  }}</title>
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="Webpack basic starter project">
+    <meta name="Description" content="A simple webpack starter project for your basic web development needs."/>
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Webpack basic starter project" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://lifenautjoe.github.io/webpack-starter-basic/" />
+    <meta property="og:image" content="https://i.snag.gy/i3eMBc.jpg" />
+    <meta property="og:description" content="A simple webpack starter project for your basic web development needs." />
+    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#40699e">
+    <!-- Mobile header color Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#40699e">
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link href="assets/css/{{ .Site.Data.config.head.css }}" rel="stylesheet">
+
+    {{ partial "head/icons.html" . }}
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">knowledge base</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+{{ .Content }}
+
+    <div class="container">
+    
+    
