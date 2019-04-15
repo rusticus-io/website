@@ -1,0 +1,11 @@
+
+baseURL: http://rusticus.io/
+languageCode: en-us
+title: risticus.io
+
+theme: rusticus
+
+params:
+
+  title: Rust Community Stuttgart
+  
