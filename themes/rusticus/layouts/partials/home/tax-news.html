@@ -1,0 +1,10 @@
+
+
+<ul>
+    {{ range first 3 .Site.Taxonomies.information.news.Pages.ByExpiryDate }}
+        <li hugo-nav="{{ .RelPermalink}}">
+            <a href="{{ .Permalink}}">{{ .LinkTitle }}</a>
+        </li>
+    {{ end }}
+</ul>
+

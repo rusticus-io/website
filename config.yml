@@ -5,7 +5,11 @@ title: risticus.io
 
 theme: rusticus
 
+taxonomies:
+  category: categories
+  tag: tags
+  information: information
+
 params:
 
   title: Rust Community Stuttgart
-  
