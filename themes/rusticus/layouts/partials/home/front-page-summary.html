@@ -1,5 +1,3 @@
-
-
 <ul class="front-page-summary">
     {{ $page := .context.Site.GetPage "section" .section }}
     {{ $pages := $page.Pages.ByExpiryDate }}
@@ -15,4 +13,3 @@
         </li>
     {{ end }}
 </ul>
-
