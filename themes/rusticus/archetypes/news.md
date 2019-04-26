@@ -1,11 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-expiryDate: 
+expiryDate: {{ .Date }}
 draft: true
 
 tags:
-information: ["news"]
 
 params:
   summary: This is a summary

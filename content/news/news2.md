@@ -5,7 +5,6 @@ expiryDate: 2019-05-29
 draft: true
 
 tags:
-information: ["news"]
 
 params:
   summary: This is a summary

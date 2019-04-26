@@ -1,7 +1,7 @@
 
 
 <ul>
-    {{ range first 3 .Site.Taxonomies.information.news.Pages.ByExpiryDate }}
+    {{ range first 3 (.Site.GetPage "section" "news").Pages.ByExpiryDate }}
         <li hugo-nav="{{ .RelPermalink}}">
             <a href="{{ .Permalink}}">{{ .LinkTitle }}</a>
         </li>
