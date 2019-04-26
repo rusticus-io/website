@@ -1,7 +1,12 @@
 
 
 <ul class="front-page-summary">
-    {{ range first 3 (.Site.GetPage "section" "news").Pages.ByExpiryDate }}
+    {{ $page := .context.Site.GetPage "section" .section }}
+    {{ $pages := $page.Pages.ByExpiryDate }}
+    {{ if eq .section "blog" }}
+        {{ $pages = $page.Pages.ByDate.Reverse }}
+    {{ end }}
+    {{ range first 3 $pages }}
         <li hugo-nav="{{ .RelPermalink}}">
             <a href="{{ .Permalink}}">
                 <h3>{{ .LinkTitle }}</h3>
