@@ -6,7 +6,6 @@ draft: true
 
 tags:
 
-params:
-  summary: This is a summary
+summary: This is a summary
 ---
 
