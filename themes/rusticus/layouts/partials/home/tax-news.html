@@ -1,6 +1,6 @@
 
 
-<ul>
+<ul class="front-page-summary">
     {{ range first 3 (.Site.GetPage "section" "news").Pages.ByExpiryDate }}
         <li hugo-nav="{{ .RelPermalink}}">
             <a href="{{ .Permalink}}">
