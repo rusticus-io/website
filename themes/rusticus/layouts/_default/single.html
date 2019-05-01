@@ -1,0 +1,13 @@
+
+{{ partial "header/header.html" . }}
+
+<main class="single">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Summary }}</p>
+    <section>
+        {{ .Content }}
+    </section>
+</main>
+{{ partial "aside.html" . }}
+
+{{ partial "footer/footer.html" . }}
