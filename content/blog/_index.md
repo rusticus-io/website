@@ -1,5 +1,5 @@
 ---
-title: "News Feed"
+title: "Blog Posts"
 
 summary: Here you can find the news
 

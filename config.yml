@@ -5,9 +5,13 @@ title: risticus.io
 
 theme: rusticus
 
+Paginate: 5
+
 taxonomies:
   tag: tags
 
 params:
 
   title: Rust Community Stuttgart
+
+  dateformat: "2006-01-02"

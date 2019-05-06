@@ -3,9 +3,13 @@
 
 <main class="list">
     <h1>{{ .Title }}</h1>
+    <p class="summary">{{ .Summary }}</p>
+    <section>
+        {{ .Content }}
+    </section>
 
     <ul>
-    {{ range (.Paginator 5).Pages }}
+    {{ range .Paginator.Pages }}
 
       <li class="list-entry">
         <a href="{{.Permalink}}">
@@ -16,7 +20,9 @@
       </li>
 
     {{ end }}
-  </ul>
+    </ul>
+
+    {{ template "_internal/pagination.html" . }}
 
 </main>
 {{ partial "aside.html" . }}
