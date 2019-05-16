@@ -1,9 +1,10 @@
 ---
-title: "News Feed"
+title: "Knowledge Base"
 
 menu:
   main:
-    name: "News"
+    name: "Knowledge Base"
+    weight: 10
 
 summary: Here you can find the news
 
