@@ -14,6 +14,7 @@ summary: Interesting Links about Rust
 # Rust Community Stuttgart
 
 * [https://github.com/rusticus-io](https://github.com/rusticus-io)
+* [https://github.com/rust-stuttgart/rust-stuttgart](https://github.com/rust-stuttgart/rust-stuttgart)
 
 # Game Dev
 
