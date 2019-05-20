@@ -1,0 +1,9 @@
+<div class="thumbnails">
+{{ range (.Site.GetPage "section" "knowledge-base").Pages }}
+<div class="thumbnail">
+  <a href="{{ .Permalink}}">
+    {{ .LinkTitle }}
+  </a>
+</div>
+{{ end }}
+</div>
