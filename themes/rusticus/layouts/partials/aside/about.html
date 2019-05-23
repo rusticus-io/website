@@ -1,0 +1,7 @@
+
+{{ if .IsHome }}
+<div class="about">
+  <h2>{{ lower .Summary }}</h2>
+  {{ .Content }}
+</div>
+{{ end }}

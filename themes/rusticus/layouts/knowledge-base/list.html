@@ -1,0 +1,22 @@
+
+{{ partial "header/header.html" . }}
+
+<main class="list">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Summary }}</p>
+    <ul>
+    {{ range .Pages }}
+
+      <li class="list-entry">
+        <a href="{{.Permalink}}">
+          <span class="title">{{.Title}}</span>
+          <span class="summary">{{.Summary}}</span>
+        </a>
+      </li>
+
+    {{ end }}
+  </ul>
+</main>
+{{ partial "aside.html" . }}
+
+{{ partial "footer/footer.html" . }}
