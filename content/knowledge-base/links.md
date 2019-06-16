@@ -1,7 +1,6 @@
 ---
 title: "Links"
 date: 2019-05-17T20:05:18+02:00
-draft: true
 
 summary: Interesting Links about Rust
 ---

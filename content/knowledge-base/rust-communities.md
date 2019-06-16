@@ -1,7 +1,6 @@
 ---
 title: "Rust Communities"
 date: 2019-05-17T20:35:36+02:00
-draft: true
 
 summary: Other Rust communities around the globe.
 ---

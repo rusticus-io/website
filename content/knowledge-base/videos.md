@@ -1,7 +1,6 @@
 ---
 title: "Videos"
 date: 2019-05-17T20:42:50+02:00
-draft: true
 
 summary: Useful videos
 ---
