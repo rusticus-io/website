@@ -5,7 +5,7 @@ menu:
   main:
     name: "Blog"
 
-summary: Here you can find the news
+summary: Here you can find blog posts
 
 ---
 
