@@ -26,6 +26,17 @@ summary: Interesting Links about Rust
 * [Anima](http://anima-engine.org/)
 * [Piston](https://www.piston.rs/)
 
+## Games
+
+* [Zermeroth](https://ozkriff.itch.io/zemeroth) (It is a WASM Demo !)
+
+# Web Dev
+
+* [Rust Web Framework Comparsion](https://github.com/flosse/rust-web-framework-comparison)
+
+## Webassembly
+
+* [Zermeroth Game build for WASM](https://github.com/not-fl3/good-web-game)
 
 # Embedded
 
