@@ -23,7 +23,7 @@ and a
 confused with the
 [organization for this site](https://github.com/rusticus-io/)).
 
-You never heard about RUst but want to learn about it? You're welcome to join
+You never heard about Rust but want to learn about it? You're welcome to join
 us! You're one of the top Rust contributors? You're welcome as well!
 We welcome beginners as well as advanced users!
 
