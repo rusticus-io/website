@@ -29,6 +29,7 @@ summary: Interesting Links about Rust
 ## Games
 
 * [Zermeroth](https://ozkriff.itch.io/zemeroth) (It is a WASM Demo !)
+* [Veloren](https://gitlab.com/veloren/veloren) (multiplayer voxel RPG)
 
 # Web Dev
 
