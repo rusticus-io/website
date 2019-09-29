@@ -6,4 +6,10 @@
       <h2>tags</h2>
       <p>nothing yet</p>
   </div>
+
+  <div class="links">
+    {{ range .AlternativeOutputFormats -}}
+      {{ printf `<a href="%s" title="%s"><img height="25" src="https://upload.wikimedia.org/wikipedia/commons/4/46/Generic_Feed-icon.svg"/></a>` .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+  </div>
 </aside>
