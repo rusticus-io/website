@@ -9,6 +9,7 @@ summary: Interesting Links about Rust
 
 * [Home of Rust Lang](https://www.rust-lang.org/)
 * [Rust Community Team](https://community.rs/)
+* [Rust Language Cheat Sheet](https://cheats.rs/)
 
 # Rust Community Stuttgart
 
