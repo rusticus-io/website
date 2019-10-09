@@ -18,6 +18,8 @@ summary: Interesting Links about Rust
 
 # Game Dev
 
+* [Rust Game Development Working Group](https://rust-gamedev.github.io/) [https://github.com/rust-gamedev](https://github.com/rust-gamedev)
+* [Reddit - Programming Games in Rust](https://www.reddit.com/r/rust_gamedev/)
 * [Overview of Open Source Game Engines in Rust](https://www.shadercat.com/overview-of-open-source-game-engines-in-rust/)
 * [Are we game yet?](http://arewegameyet.com/)
 
@@ -29,8 +31,8 @@ summary: Interesting Links about Rust
 
 ## Games
 
-* [Zermeroth](https://ozkriff.itch.io/zemeroth) (It is a WASM Demo !)
 * [Veloren](https://gitlab.com/veloren/veloren) (multiplayer voxel RPG)
+* [Zermeroth](https://ozkriff.itch.io/zemeroth) (It is a WASM Demo !)
 
 # Web Dev
 
